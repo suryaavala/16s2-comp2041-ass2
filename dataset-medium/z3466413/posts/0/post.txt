@@ -1,0 +1,5 @@
+longitude=151.1002
+message=To my Computing 1 tutor... You can compile my code anytime. My 'up-time' is better than BSD. You had me at "Hello World." You've stolen the ASCII to my heart. I'd switch to emacs for you. Come to my 127.0.0.1 and I’ll give you sudo access. I must be using Apple maps, because I keep getting lost in your eyes.
+latitude=-34.0026
+from=z3466413
+time=2013-04-19T05:24:36+0000

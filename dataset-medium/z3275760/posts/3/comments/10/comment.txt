@@ -1,0 +1,3 @@
+time=2016-05-05T08:04:28+0000
+from=z3416238
+message=With z5019161 it's the other way around

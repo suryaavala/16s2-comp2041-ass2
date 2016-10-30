@@ -1,0 +1,3 @@
+from=z3413158
+message=z5006234 Jokes, you satisfy none of the 6 conditions
+time=2016-05-13T11:37:46+0000

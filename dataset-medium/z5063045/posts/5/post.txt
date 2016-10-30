@@ -1,0 +1,5 @@
+from=z5063045
+latitude=-33.9688
+message=Dear Twoey,\n\nYou set my heart on fire like your red hot hair, \nI just want you to take me back to your lair. \n\nYou are the Ron to my Hermione,\nPlease come and find me. \n\nI want to get nasty,\nSee you at the Toga Party. \nxx
+longitude=151.0567
+time=2016-04-28T12:22:24+0000

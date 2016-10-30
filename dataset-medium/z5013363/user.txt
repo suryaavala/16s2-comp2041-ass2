@@ -1,0 +1,9 @@
+birthday=1998-10-05
+mates=[z5062399, z3470029, z3493921, z5099187, z5014335, z5062448, z5023159, z3275760, z5059413, z5075923, z5017666, z5117658]
+program=Engineering (Hons) / Science
+password=maggie
+courses=[2016 S1 CHEM1011, 2016 S1 ENGG1000, 2016 S1 MATH1131, 2016 S1 PHYS1121, 2016 S2 ENGG1811, 2016 S2 MATH1231, 2016 S2 MATS1192, 2016 S2 MMAN1300]
+full_name=Marisa Tomei
+zid=z5013363
+home_suburb=Matraville
+email=M.Tomei@unsw.edu.au

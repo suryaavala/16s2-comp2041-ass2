@@ -1,0 +1,5 @@
+longitude=151.1157
+from=z5018487
+latitude=-33.8601
+time=2013-10-18T07:56:23+0000
+message=To Jacqueline who is studying 3rd year psychology, we met at Myer when I served you on Thursday night. You have such a beautiful smile :) Meet me again on Tuesday?

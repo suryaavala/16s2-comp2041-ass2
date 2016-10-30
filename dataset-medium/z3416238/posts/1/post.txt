@@ -1,0 +1,5 @@
+longitude=151.2278
+from=z3416238
+time=2013-04-12T04:42:38+0000
+latitude=-33.9122
+message=To Bianca, who helped my when I had bloody knuckles, you said we'd get coffee but never did. Are we still going to do that?

@@ -1,0 +1,5 @@
+latitude=-33.9221
+from=z5017258
+longitude=151.2227
+time=2013-08-18T10:49:24+0000
+message=To Stewart...or was it Vincent? I had fun with you at the Foundation party but I can't find you on facebook! I hope I'll bump into you on campus xx

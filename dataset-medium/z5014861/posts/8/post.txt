@@ -1,0 +1,5 @@
+from=z5014861
+time=2016-09-05T00:01:27+0000
+message=What's up with these Nivaaz Kaur confessions? Man, even I'm falling for her now!
+latitude=-33.9489
+longitude=151.2105

@@ -1,0 +1,11 @@
+full_name=Pedro Pauleta
+courses=[2016 S2 COMP4418, 2016 S2 COMP9902, 2016 S2 GSOE9400]
+email=P.Pauleta@unsw.edu.au
+home_longitude=150.9988
+zid=z3462191
+program=Computer Science and Eng
+mates=[z5019161, z3413158, z5063045, z5014753, z5079464, z5099187, z3493921, z5115039, z5014229, z5017165]
+password=maxwell
+home_suburb=Castle Hill
+birthday=1995-08-16
+home_latitude=-33.7393

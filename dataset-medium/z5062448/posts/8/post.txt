@@ -1,0 +1,5 @@
+from=z5062448
+time=2016-09-25T21:03:13+0000
+message=To the girl in Math1231 chatting to her friend about how she was worried that she looked different in her long blue dress, don't worry- you looked absolutely beautiful!
+longitude=151.2083
+latitude=-34.0039

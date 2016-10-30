@@ -1,0 +1,5 @@
+time=2013-06-20T03:27:37+0000
+from=z3376221
+longitude=151.0459
+latitude=-33.9009
+message=Where are all the awkward, nerdy engineers...? :'( #LonelyNerdyGirl

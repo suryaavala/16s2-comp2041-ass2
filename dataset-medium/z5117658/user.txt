@@ -1,0 +1,11 @@
+birthday=1994-08-26
+password=6969
+full_name=Carlos Moya
+courses=[2016 S1 ELEC4612, 2016 S1 ELEC4631, 2016 S1 GSOE8506, 2016 S1 GSOE9141, 2016 S1 GSOE9810, 2016 S2 ELEC4632, 2016 S2 ELEC9732, 2016 S2 GSOE9010, 2016 S2 GSOE9210]
+email=C.Moya@unsw.edu.au
+zid=z5117658
+home_suburb=Kingswood
+mates=[z3489385, z5119437, z5076002, z5079464, z5023159, z3487885, z5013363, z3275760]
+home_latitude=-33.7514
+home_longitude=150.7274
+program=Engineering Science

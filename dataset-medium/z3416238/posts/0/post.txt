@@ -1,0 +1,5 @@
+message=To the tall twins with brown hair studying engineering, I want you both. At the same time.
+latitude=-33.8946
+time=2013-03-27T05:02:34+0000
+longitude=151.1546
+from=z3416238

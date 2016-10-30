@@ -1,0 +1,5 @@
+longitude=151.2315
+time=2013-03-29T04:35:01+0000
+latitude=-33.9328
+from=z5099187
+message=To the german guy who works at the Stockmarket food place. Yes I would like some bread with my steamy pasta.

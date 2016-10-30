@@ -1,0 +1,5 @@
+from=z5063045
+time=2016-08-08T14:52:04+0000
+message=Steven Tran from ASOC, I saw you at camp you're pretty cute and your muzz is pretty good. Let's go defqon together?
+latitude=-33.9688
+longitude=151.0567

@@ -1,0 +1,5 @@
+longitude=151.2322
+latitude=-33.9183
+time=2016-09-13T08:26:44+0000
+from=z5014335
+message=Dear Nathan Suen,\n\nI hear you're into pokemon, can you catch me with one of your Ultra balls?\n\n- Secret Admirer

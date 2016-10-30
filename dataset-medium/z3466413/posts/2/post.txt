@@ -1,0 +1,5 @@
+message=To the first year Commerce Law student, I think his name is Alex Morrissey? Or Scott Morrissey? I can't remember, but you amaze me. Comment on this status and I'll message you?
+latitude=-33.9217
+from=z3466413
+longitude=151.2247
+time=2013-07-03T06:00:46+0000

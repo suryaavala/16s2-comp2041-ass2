@@ -1,0 +1,5 @@
+longitude=151.2032
+message=Where are all the Asian girls who like Indian men?
+latitude=-33.9057
+from=z5006234
+time=2013-12-11T23:33:15+0000

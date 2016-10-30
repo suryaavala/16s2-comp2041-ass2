@@ -1,0 +1,5 @@
+from=z5014229
+latitude=-33.9171
+message=To the second year actuary student who has a baby-like face and wears a pink bag around. Are you taken? Cause I reckon we'd be a match made in heaven ;)
+longitude=151.2373
+time=2013-04-22T23:53:32+0000

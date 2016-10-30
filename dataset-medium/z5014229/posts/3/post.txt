@@ -1,0 +1,5 @@
+from=z5014229
+longitude=151.2373
+latitude=-33.9171
+message=People, if you can agree on how unbelievably sexy Alberto Motta is and you want to show appreciation for his superior teaching skills. http://www.asb.unsw.edu.au/currentstudents/studentlife/prizesandawards/Pages/student-choice-award.aspx Vote for him here! :D
+time=2013-05-13T22:55:05+0000

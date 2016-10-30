@@ -1,0 +1,5 @@
+longitude=151.2099
+from=z5079464
+message=I have a dream, that one day, we will face our exams, in a building!
+time=2013-10-10T05:11:21+0000
+latitude=-33.7682

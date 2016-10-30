@@ -1,0 +1,5 @@
+longitude=151.1299
+from=z5014753
+time=2013-04-24T14:56:50+0000
+latitude=-33.9833
+message=To the very suave Patrick doing first year medicine, what some may say is arrogance is instead confidence in my eyes. And I too am confident; confident that we could make beautiful babies who grow up to be just as smart as their doctor mummy and daddy. Though before we get to testing out how compatible our genetics are, we could just have a lot of hot fun with mock diagnosis (and costumes) on each other in the mean time.

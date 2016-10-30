@@ -1,0 +1,5 @@
+from=z5057619
+message=We walked past each other and instantly smiled around 3 last Friday just around physics lawn. You were wearing a black hoodie and I was wearing a monkey sweatshirt. I was rushing to class but I should've said hi.\n\nFind me again next Thursday around physics lawn at lunchtime (1-2) if you want another smile!\n\n- Monkeyboy
+time=2013-09-01T20:00:12+0000
+latitude=-33.8908
+longitude=151.2807

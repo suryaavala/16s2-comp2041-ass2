@@ -1,0 +1,5 @@
+latitude=-33.9061
+from=z5014861
+time=2016-06-10T05:31:33+0000
+longitude=151.2148
+message=Carol Wu\npls be mine

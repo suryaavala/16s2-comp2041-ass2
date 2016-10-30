@@ -1,0 +1,5 @@
+latitude=-33.9040
+longitude=151.2525
+from=z5062448
+time=2016-09-05T16:01:21+0000
+message=To Ming Woo - you're tiny and cute. Coffee?

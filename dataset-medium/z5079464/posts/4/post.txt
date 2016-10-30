@@ -1,0 +1,5 @@
+latitude=-33.9227
+from=z5079464
+longitude=151.2352
+message=I love this dude for the sheer fact that he wears a sleeping mask under his sunnies in the library...
+time=2015-09-02T14:57:43+0000

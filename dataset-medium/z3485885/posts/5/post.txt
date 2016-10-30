@@ -1,0 +1,5 @@
+longitude=151.2332
+message=Nivaaz Kaur. I want to go straight to the point. Can we get together and make babies already.\n\nLove \nL F
+latitude=-33.9220
+from=z3485885
+time=2016-06-27T11:12:56+0000

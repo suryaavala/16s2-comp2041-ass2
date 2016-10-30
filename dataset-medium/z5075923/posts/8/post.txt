@@ -1,0 +1,5 @@
+longitude=151.2214
+from=z5075923
+message=hey Brendan Mckeogh(?) science int, you're cute :)\nkeep on doing you
+time=2016-08-25T00:03:25+0000
+latitude=-33.9192

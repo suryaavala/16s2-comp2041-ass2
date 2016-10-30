@@ -1,0 +1,5 @@
+from=z5076002
+latitude=-33.9173
+longitude=151.2333
+time=2016-04-18T05:48:52+0000
+message=To the cute indian(?) girl in first year doing acturial studies and doing math1151 this sem. You're kinda cute :) coffee? :D

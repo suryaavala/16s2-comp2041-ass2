@@ -1,0 +1,3 @@
+message=Coffee sounds good #tagalltheGZs :P
+time=2013-05-16T01:09:04+0000
+from=z5014229

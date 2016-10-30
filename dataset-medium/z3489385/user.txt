@@ -1,0 +1,11 @@
+full_name=Rachel Hunter
+home_latitude=-33.8664
+program=AdvSci(Hons)/Engineering(Hons)
+zid=z3489385
+home_longitude=150.9063
+courses=[2016 S1 BABS1201, 2016 S1 COMP1911, 2016 S1 MATH1131, 2016 S1 PHYS1131, 2016 S2 ENGG1000, 2016 S2 ENGG1811, 2016 S2 MATH1231, 2016 S2 MMAN1300]
+mates=[z5119437, z5024986, z5063045, z5076002, z5079464, z5023159, z3376221, z5117658, z3416238]
+home_suburb=Wakeley
+birthday=1996-02-29
+email=R.Hunter@unsw.edu.au
+password=111111

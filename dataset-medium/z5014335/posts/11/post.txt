@@ -1,0 +1,5 @@
+message=Joanna, we are a match and I superliked you. Do you superlike me?
+latitude=-34.0943
+from=z5014335
+time=2016-09-26T11:29:59+0000
+longitude=150.7954

@@ -1,0 +1,5 @@
+longitude=151.2257
+time=2016-05-06T05:50:16+0000
+from=z5060415
+message=To the person surveying this afternoon today from 12pm at Redfern station why didn't you want my number :(?
+latitude=-33.9270

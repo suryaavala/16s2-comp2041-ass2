@@ -1,0 +1,5 @@
+latitude=-33.9688
+time=2013-04-26T04:47:19+0000
+message=Jacob, I hate your knees
+longitude=151.0567
+from=z5063045

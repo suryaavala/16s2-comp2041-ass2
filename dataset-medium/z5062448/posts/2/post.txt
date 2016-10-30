@@ -1,0 +1,5 @@
+message=Bangladeshi Society has turned up the heat this year. The president chick looks like Emily Ratajkowsk and is so sweet. I’m your biggest fan from Vishwaas. You’re the reason I joined, hope to see you at more events :P
+longitude=151.2277
+from=z5062448
+time=2016-04-26T10:32:05+0000
+latitude=-33.9550

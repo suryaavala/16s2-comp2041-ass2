@@ -1,0 +1,11 @@
+home_latitude=-33.9434
+birthday=1994-03-20
+password=summer
+home_suburb=Botany
+zid=z5057619
+email=G.Hackett@unsw.edu.au
+full_name=Grant Hackett
+home_longitude=151.1881
+courses=[2016 S1 BABS1201, 2016 S1 COMP1917, 2016 S1 MATH1141, 2016 S1 SCIF1121, 2016 S2 BIOS1101, 2016 S2 COMP1927, 2016 S2 MATH1241, 2016 S2 PSYC1011]
+mates=[z3413158, z5024986, z5014753, z5079464, z3470029, z5060415, z5017165, z3376221, z3416238]
+program=Adv Science(Hons)/Computer Sci

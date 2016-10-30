@@ -1,0 +1,5 @@
+longitude=150.6274
+latitude=-34.2526
+time=2016-06-12T15:22:43+0000
+message=Dear Duong Nguyen,\nYou are cute af. Notice me pls\nx
+from=z3489385

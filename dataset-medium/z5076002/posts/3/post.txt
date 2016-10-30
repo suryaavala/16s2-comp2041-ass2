@@ -1,0 +1,5 @@
+longitude=151.2285
+from=z5076002
+latitude=-33.9170
+message=To the dreamy Assyrian Ninor Mansor, please hold me tightly in your arms, and we can brave the coming winter months together with passion and love.
+time=2013-06-14T02:45:42+0000

@@ -1,0 +1,3 @@
+from=z5023159
+time=2016-09-13T10:11:33+0000
+message=I've been preparing for this moment my whole life

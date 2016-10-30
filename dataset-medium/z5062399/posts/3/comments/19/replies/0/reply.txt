@@ -1,0 +1,3 @@
+from=z5017258
+message=Hahaha I'm better than greeks bro. Nothing can top the sun God Ra
+time=2016-04-20T13:03:29+0000

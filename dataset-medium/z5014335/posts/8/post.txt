@@ -1,0 +1,5 @@
+from=z5014335
+message=Chong first year advanced science\n\nWe will have the best chemical romance you chem god. Better than with your gf
+longitude=151.2214
+time=2016-09-03T02:23:34+0000
+latitude=-33.9239

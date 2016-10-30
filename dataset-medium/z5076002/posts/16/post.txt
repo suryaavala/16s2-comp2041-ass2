@@ -1,0 +1,5 @@
+latitude=-33.9103
+message=All my life I've been watching romantic movies and reading romantic novels, and they all say you just have to wait for the right guy to come along. Well guess what Bella got hers at what 17? Elizabeth Bennett got hers at 20. So where's mine? Literally I can hear Amy Schumer saying "Omg 30? Freeze your eggs!"
+time=2016-08-28T12:25:55+0000
+longitude=151.2323
+from=z5076002

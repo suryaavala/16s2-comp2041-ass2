@@ -1,0 +1,5 @@
+latitude=-33.8985
+message=to the girl on the m10 on her phone in a yellow sweater and blue jeans, you are so gorgeous.
+time=2016-05-04T10:11:02+0000
+longitude=151.2401
+from=z5017165

@@ -1,0 +1,5 @@
+message=To the cute indian girl in my infosys lecture, I always see you with another tall indian guy. Are you guys a thing? Because I'd love to grab some chai with you one day. \nxx the shy guy that always sits behind you.
+longitude=151.2014
+time=2016-06-18T13:59:54+0000
+latitude=-33.8298
+from=z3416238

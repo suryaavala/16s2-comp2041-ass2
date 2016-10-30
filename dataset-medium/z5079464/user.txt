@@ -1,0 +1,11 @@
+full_name=Andre Agassi
+birthday=1995-04-11
+mates=[z3489385, z3462191, z5063045, z5062448, z5059413, z5017258, z3485885, z5075923, z5117658, z5057619]
+program=Commerce
+home_latitude=-33.9646
+home_suburb=Penshurst
+zid=z5079464
+home_longitude=151.0871
+password=chelsea
+email=A.Agassi@unsw.edu.au
+courses=[2016 S2 ACCT1501, 2016 S2 ECON1203, 2016 S2 FINS1613, 2016 S2 MGMT1001]

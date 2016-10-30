@@ -1,0 +1,5 @@
+latitude=-33.9121
+time=2016-05-16T13:49:30+0000
+from=z5062448
+message=When did you first meet your SO?
+longitude=151.2359

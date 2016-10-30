@@ -1,0 +1,5 @@
+message=The boys in 3rd year mechanical engineering make me sad.\nMaybe I should just turn lesbian.
+longitude=151.0842
+from=z5076002
+time=2016-06-20T12:06:04+0000
+latitude=-33.9548

@@ -1,0 +1,5 @@
+latitude=-33.9173
+message=Looking for my perfect Ping Pong partner. Preferably cute asian grill studying business and within my league (>DiamondV)
+longitude=151.2275
+from=z5099187
+time=2016-09-14T03:14:36+0000

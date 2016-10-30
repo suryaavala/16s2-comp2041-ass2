@@ -1,0 +1,3 @@
+from=z5076158
+message=Hahahah. \nGood joke. Those couches are so not comfy.
+time=2016-06-05T09:49:22+0000

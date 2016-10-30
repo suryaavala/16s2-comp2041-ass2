@@ -1,0 +1,5 @@
+latitude=-33.7642
+time=2016-07-26T10:55:13+0000
+from=z5076158
+message=To someone,\nNotice me before our course ends.\nThanks.
+longitude=150.9992

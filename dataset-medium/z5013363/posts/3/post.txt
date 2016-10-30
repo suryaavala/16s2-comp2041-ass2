@@ -1,0 +1,5 @@
+from=z5013363
+message=Gordon Lu I think it was? You're so cute, I love the way your hair just gives up about halfway. Your combover looks super cute in your pictures 😅.Maybe I can see it in person one day. 💖 \n\nI.Z
+longitude=151.1457
+latitude=-33.9158
+time=2016-08-31T06:38:15+0000

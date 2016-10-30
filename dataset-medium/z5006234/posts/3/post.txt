@@ -1,0 +1,5 @@
+from=z5006234
+time=2016-03-07T23:16:59+0000
+longitude=151.2321
+message=:)
+latitude=-33.9117

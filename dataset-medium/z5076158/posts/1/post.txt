@@ -1,0 +1,5 @@
+time=2013-05-22T07:46:10+0000
+message=the girl sitting in the quad food court midday on friday. you were wearing floral jeans and sitting down at a table with another girl, you had the cutest smile and amazing legs! hello hello
+from=z5076158
+latitude=-33.9145
+longitude=151.2205

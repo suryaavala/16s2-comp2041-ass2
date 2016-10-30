@@ -1,0 +1,3 @@
+message=I guess you young uns don't know of the pavillion, upper tea, galaxy and the other horrible places exams were done at.
+from=z5042573
+time=2013-10-10T05:11:21+0000

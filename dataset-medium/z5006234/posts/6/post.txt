@@ -1,0 +1,5 @@
+message=To Daniel Mansfield and Joshua Capel :\n\nI'm sure I represent most of the MATH1131 peeps by saying this , \nI love you guys so much , keep the revision livestreams going , you are saving the grades of countless students by doing this !!!\nHow could anyone possibly hate what you guys are doing now ?  \n\nno homo
+longitude=151.2321
+latitude=-33.9117
+from=z5006234
+time=2016-06-18T23:52:24+0000

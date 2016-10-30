@@ -1,0 +1,5 @@
+latitude=-34.0153
+from=z3489385
+time=2013-04-18T09:02:08+0000
+message=To the blitz magazine reporter who just interviewed Flume, you are absolutely irresistible! You, Me & Flumey boy would be 'insane'.............in bed ;) coffee sometime?
+longitude=151.0813

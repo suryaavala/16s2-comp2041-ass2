@@ -1,0 +1,3 @@
+time=2016-09-25T23:58:25+0000
+message=Funny joke
+from=z3275760

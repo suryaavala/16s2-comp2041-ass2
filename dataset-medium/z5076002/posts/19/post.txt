@@ -1,0 +1,5 @@
+longitude=151.1579
+time=2016-10-04T12:55:37+0000
+latitude=-33.8303
+message=To Eric Li, \nI hear all about how you aren't afraid to speak your mind to people and the impressive stories of your escapade in the library only makes me more attracted to you. I missed out on my chance to meet you at the ball, can we hook up at the Spring Break Party?
+from=z5076002

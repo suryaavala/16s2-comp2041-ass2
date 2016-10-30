@@ -1,0 +1,5 @@
+from=z3466413
+message=Rebecca Trunk Lin, as a Commerce/Arts student, I have heavily relied on BSOC to make friends. Little did I know, BSOC would find me my love who is 2014's Internal Vice President. I hope you notice me soon. \n\n<3
+time=2013-11-07T17:31:33+0000
+longitude=151.2247
+latitude=-33.9217

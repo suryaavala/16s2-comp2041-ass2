@@ -1,0 +1,5 @@
+latitude=-33.8906
+longitude=151.1798
+message=To the tall buff guy in my accounting lectures with dark brown hair and dimples when you make that sexy smile... we've sat next to each other many times. Wish I had the courage to ask you out for a drink.
+from=z5024986
+time=2013-03-26T09:57:54+0000

@@ -1,0 +1,5 @@
+from=z5017666
+latitude=-33.9079
+longitude=151.2365
+message=Oh Cecilia! I'm down on my knees. I'm begging you please to come home.... because ITS YOUR BIRTHDAY. Happy Birthday Baby!!!!!!!!!\n\nMeet me at 12 for Birthday Surprises!!!!!
+time=2013-05-08T11:10:57+0000

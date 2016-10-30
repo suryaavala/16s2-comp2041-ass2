@@ -1,0 +1,3 @@
+from=z5062399
+message=Go awei z5024986 hahahaha
+time=2016-06-12T06:59:13+0000

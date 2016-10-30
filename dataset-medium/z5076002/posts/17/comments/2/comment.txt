@@ -1,0 +1,3 @@
+message=z5076158 time to transfer to unsw
+from=z5014861
+time=2016-09-02T03:09:29+0000

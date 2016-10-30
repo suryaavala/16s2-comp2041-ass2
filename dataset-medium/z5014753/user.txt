@@ -1,0 +1,11 @@
+zid=z5014753
+full_name=Jennifer Lopez
+courses=[2016 S1 COMP1911, 2016 S1 ENGG1000, 2016 S1 MATH1131, 2016 S1 PHYS1121, 2016 S2 ELEC1111, 2016 S2 MATH1231, 2016 S2 PHYS1221, 2016 S2 SOLA1070]
+email=J.Lopez@unsw.edu.au
+birthday=1996-12-11
+mates=[z3466413, z5019161, z3462191, z5024986, z3470029, z3470057, z5059413, z3487885, z5014229, z5057619]
+home_longitude=151.1209
+home_latitude=-33.8583
+password=2112
+program=Engineering (Honours)
+home_suburb=Wareemba

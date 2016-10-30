@@ -1,0 +1,5 @@
+time=2016-05-17T09:59:51+0000
+latitude=-33.8722
+from=z5042573
+longitude=151.1005
+message=To the beautiful purple hair girl doing engineering,\n\nYou have distracted me by your beauty many times, yet I have never caught your name...

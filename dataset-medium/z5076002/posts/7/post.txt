@@ -1,0 +1,5 @@
+from=z5076002
+latitude=-33.9103
+longitude=151.2323
+message=Dear Eddy Ave bus line, I know cop so much hate but you still have my love baby. Keep doing you. :').
+time=2016-04-15T13:35:10+0000

@@ -1,0 +1,5 @@
+from=z3470029
+latitude=-33.9566
+time=2016-09-25T11:52:44+0000
+message=To the girl who had her sushi scabbed by the bird on the library lawn,\nI'm sorry that happened to you. Sushi some time to make you feel better?
+longitude=150.8168

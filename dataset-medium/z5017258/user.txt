@@ -1,0 +1,11 @@
+full_name=Sheryl Crow
+home_suburb=Potts Point
+program=Life Sciences
+email=S.Crow@unsw.edu.au
+mates=[z3413158]
+home_latitude=-33.8776
+home_longitude=151.2311
+password=fishing
+zid=z5017258
+birthday=1993-02-11
+courses=[2016 S1 BABS1201, 2016 S1 CHEM1011, 2016 S1 MATH1041, 2016 S1 PSYC1001, 2016 S2 BINF2010, 2016 S2 BIOS1101, 2016 S2 GENM0707, 2016 S2 PSYC1011]

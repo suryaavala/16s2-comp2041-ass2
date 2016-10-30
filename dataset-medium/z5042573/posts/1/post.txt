@@ -1,0 +1,5 @@
+message=Dear Stephanie Lam,\n\nThe first time i saw you in LEGT1710 i knew you were the one for me. You drive me insanely crazy! My room has several pictures of you on facebook!\n\nWILL CONFESS MY LOVE IN LEGT1710 NEXT WEEK ! Mwah!
+time=2013-08-07T05:27:11+0000
+from=z5042573
+longitude=151.1133
+latitude=-33.8467

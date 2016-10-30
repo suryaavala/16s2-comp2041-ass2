@@ -1,0 +1,5 @@
+latitude=-33.9166
+from=z3275760
+message=I got over my crush because she wanted the Pokemon Go hype to die down.\n\nGirls who play Pokemon Go, you are keepers for sure <3
+time=2016-08-08T13:16:58+0000
+longitude=151.2305

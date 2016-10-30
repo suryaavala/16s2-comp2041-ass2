@@ -1,0 +1,5 @@
+longitude=151.2259
+from=z5059413
+latitude=-33.9255
+message=Clinton from Civil Eng, r u single? xx
+time=2016-06-05T06:57:36+0000

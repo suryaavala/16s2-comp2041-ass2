@@ -1,0 +1,3 @@
+from=z5119437
+message=You're wasting your time on irrelevant things, we should we focusing our efforts on Bantu
+time=2016-09-04T11:05:42+0000

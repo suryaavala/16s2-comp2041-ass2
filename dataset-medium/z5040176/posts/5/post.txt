@@ -1,0 +1,5 @@
+latitude=-33.7807
+from=z5040176
+longitude=151.0411
+time=2016-09-03T00:15:24+0000
+message=I have done so many cringe things this year In regard to relationships, I don't know how to recover\nFML

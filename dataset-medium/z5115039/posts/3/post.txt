@@ -1,0 +1,5 @@
+latitude=-33.9180
+time=2013-11-02T12:15:45+0000
+longitude=151.2283
+message=to the sexy new qlounge guy who looks like a football player, how old are you? My body is ready if you're over 16.
+from=z5115039

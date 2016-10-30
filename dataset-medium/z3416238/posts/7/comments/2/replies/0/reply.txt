@@ -1,0 +1,3 @@
+message=not my wam that's for sure
+from=z3489385
+time=2016-07-12T03:10:19+0000

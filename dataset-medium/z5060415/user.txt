@@ -1,0 +1,11 @@
+zid=z5060415
+mates=[z3416238]
+email=T.Rehn@unsw.edu.au
+home_longitude=151.1042
+courses=[2016 S1 COMP9021, 2016 S1 COMP9311, 2016 S1 COMP9414, 2016 S1 GSOE9820, 2016 S2 COMP9024, 2016 S2 COMP9041, 2016 S2 COMP9331, 2016 S2 COMP9511]
+birthday=1994-03-26
+full_name=Trista Rehn
+home_latitude=-34.0055
+home_suburb=Kangaroo Point
+program=Information Technology
+password=money

@@ -1,0 +1,3 @@
+message=mate i aint even at Redfern
+from=z5014335
+time=2016-05-06T05:50:16+0000

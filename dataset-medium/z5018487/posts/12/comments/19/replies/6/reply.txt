@@ -1,0 +1,3 @@
+from=z5062448
+message=love isn't real and we will all die a lonely death
+time=2016-10-06T00:48:06+0000

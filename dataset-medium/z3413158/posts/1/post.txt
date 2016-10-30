@@ -1,0 +1,5 @@
+latitude=-33.9087
+message=Dear Gay Guys of UNSW (especially those in a relationship),\n\nStop being so dreamy, so perfect, so polite, so chivalrous, so good looking and so smart. It's not fair!\nYou're breaking our hearts.\n\nSincerely,\nLadies of UNSW.
+from=z3413158
+longitude=151.2349
+time=2013-07-01T06:51:21+0000

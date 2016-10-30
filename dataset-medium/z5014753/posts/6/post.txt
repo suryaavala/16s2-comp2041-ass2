@@ -1,0 +1,5 @@
+message=Sam Hargreaves, where you at? Hottest girl by far in AERO3110, but now you're gone? </3
+from=z5014753
+latitude=-33.9525
+time=2016-08-29T11:22:38+0000
+longitude=151.1356

@@ -1,0 +1,11 @@
+zid=z5014335
+home_suburb=Rosemeadow
+home_longitude=150.7954
+email=A.Despatie@unsw.edu.au
+program=Engineering Science
+full_name=Alexandre Despatie
+home_latitude=-34.0943
+birthday=1998-07-01
+password=voyager
+mates=[z5024986, z5062399, z5013363, z5014229, z3275760]
+courses=[2016 S1 ELEC4611, 2016 S1 ELEC4614, 2016 S1 ELEC9713, 2016 S1 GSOE8506, 2016 S1 GSOE9810, 2016 S2 ELEC4613, 2016 S2 ELEC4617, 2016 S2 ELEC9712, 2016 S2 GSOE9010]

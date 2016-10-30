@@ -1,0 +1,5 @@
+latitude=-34.0084
+from=z5079464
+message=Carmen, we are a match and I superliked you. Do you superlike me?
+longitude=151.0594
+time=2016-10-05T08:32:29+0000

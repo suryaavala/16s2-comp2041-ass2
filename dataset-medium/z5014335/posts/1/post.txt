@@ -1,0 +1,5 @@
+time=2013-05-24T10:44:30+0000
+latitude=-34.0943
+message=Tuesday afternoon: You - cute Asian guy asks me the time on the 895 Bus from High Street to Central. Me - cub with beard. You sit opposite me. Coffee sometime?
+longitude=150.7954
+from=z5014335

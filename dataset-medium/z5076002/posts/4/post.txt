@@ -1,0 +1,5 @@
+time=2013-06-26T01:49:42+0000
+longitude=151.2323
+latitude=-33.9103
+from=z5076002
+message=Michael Wong aka chip stahp ignoring me - I want your d

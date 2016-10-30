@@ -1,0 +1,3 @@
+message=UNSW Love Letters promotes safe sex
+from=z5115039
+time=2013-04-09T12:28:52+0000

@@ -1,0 +1,5 @@
+message=To the guy in post #12898. I think you should tell her. Chances are, she feels the same way about you.
+latitude=-33.8144
+from=z5063045
+longitude=151.2556
+time=2016-09-07T16:24:45+0000

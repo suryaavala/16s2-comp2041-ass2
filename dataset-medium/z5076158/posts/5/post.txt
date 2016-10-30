@@ -1,0 +1,5 @@
+from=z5076158
+latitude=-33.7642
+longitude=150.9992
+time=2016-05-05T07:52:46+0000
+message=The brown guy from bsoc playing frisbee(?) with some mates today (20th Apr) at the lawn outside mcic, you lookin fiiiine. But then again, you're from bsoc and I heard you guys have all the drama and politics. Sort of one of the reasons why I didn't approach you. :\

@@ -1,0 +1,5 @@
+longitude=151.2359
+message=Anthony Corigliano? More like Anthony Coriglia Yes please!
+from=z5042573
+time=2013-08-11T11:33:27+0000
+latitude=-33.9092

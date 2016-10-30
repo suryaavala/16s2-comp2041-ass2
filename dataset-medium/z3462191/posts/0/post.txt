@@ -1,0 +1,5 @@
+latitude=-33.8975
+longitude=151.2016
+from=z3462191
+message=I am in love with the guy who works at coffee republic. You have an amazing smile
+time=2013-04-11T12:58:40+0000

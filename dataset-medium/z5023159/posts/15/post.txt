@@ -1,0 +1,5 @@
+from=z5023159
+message=Nivaaz Kaur. I will fight to the death for you. I will not let Mr L F go anywhere near you. I promise I will keep you happy. \n\nLove\nYour knight in shining Armour
+latitude=-33.8084
+time=2016-09-02T02:31:07+0000
+longitude=151.1394

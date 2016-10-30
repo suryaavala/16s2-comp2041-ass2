@@ -1,0 +1,5 @@
+from=z3413158
+latitude=-33.8547
+longitude=151.1604
+message=I got yellow fever from studying at new south, and its the best thing that's ever happened to me.
+time=2016-09-04T12:57:59+0000

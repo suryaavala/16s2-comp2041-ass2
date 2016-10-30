@@ -1,0 +1,5 @@
+latitude=-33.8467
+from=z5042573
+time=2013-04-14T05:16:05+0000
+message=I kinda wish there was a hate letters, just to let all the frustration out! There's no love yo!
+longitude=151.1133
