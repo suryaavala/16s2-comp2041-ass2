@@ -58,19 +58,19 @@ def user_page(parameters, users_dir):
     else:
       profile = 'http://d1stfaw6j21ccs.cloudfront.net/assets/main/profile/fallback/default-b382af9ae20b5183b2eb1d6b760714c580c0eca7236cced714946bc0a044b2e6.png'
 
-
+    
     post_text = get_posts(user_to_show,user_data['full_name'])
     #display_string = display_data + '<br><br>Posts:<br>' + post_text
 
 
-    #mate_list = get_mates(user_to_show,user_data['mates'])
+    mate_list = get_mates(user_to_show,user_data['mates'])
     return """
 <div class="matelook_user_details container well">
   <div class="row">
     <div class="col-sm-3">
       <img src=%s alt="Profile Picture" class="img-thumbnail" style="width:250px;height:250px;">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-9">
       <div class="table-responsive">
         <table class="table">
             <tr>
@@ -115,7 +115,7 @@ def user_page(parameters, users_dir):
     <input type="submit" value="Previous user" class="matelook_button">
 </form>
 
-""" % (profile, user_data['full_name'],user_data['zid'],user_data['program'],user_data['birthday'],user_data['home_suburb'],user_data['mates'],post_text, n + 1, n-1)
+""" % (profile, user_data['full_name'],user_data['zid'],user_data['program'],user_data['birthday'],user_data['home_suburb'],mate_list,post_text, n + 1, n-1)
 
 #
 #Function to collect all posts and return a post string in reverse chron order
@@ -154,7 +154,34 @@ def get_posts(user_to_show,full_name):
   return post_string
 
 
-
+#
+#Function to collect all mate for the person and return html string
+#
+def get_mates(user_to_show,mate_list):
+  mates = {}
+  mate_list = mate_list[1:-1].split(', ')
+  for mate_zid in mate_list:
+    mate_dir = os.path.join(user_to_show,'..',mate_zid)
+    mate_pic = os.path.join(mate_dir,'profile.jpg')
+    if os.path.isfile(mate_pic):
+        mate_profile = mate_pic
+    else:
+      mate_profile = 'http://d1stfaw6j21ccs.cloudfront.net/assets/main/profile/fallback/default-b382af9ae20b5183b2eb1d6b760714c580c0eca7236cced714946bc0a044b2e6.png'
+    mate_file = os.path.join(mate_dir,'user.txt')
+    mate_name = ''
+    with open(mate_file,'r') as f:
+        for line in f:
+          if 'full_name' in line:
+            key, mate_name = line.split('=')
+    f.close()
+    mates[mate_name] = mate_profile
+    nb_mates = len(mates)
+  mate_generic = '<figure class="figure"><img src="{}" class="figure-img img-responsive" alt="Thumbnail for mate"><figcaption class="figure-caption text-md-center">{}</figcaption></figure>'
+  mate_string = '<div class="row">'
+  for m in sorted(mates):
+    mate_string += '<div class="col-sm-{}"'.format(nb_mates-1) + mate_generic.format(mates[m],m) + '</div>'
+  mate_string += '</div>'
+  return mate_string
 
 #
 # HTML placed at the top of every page
