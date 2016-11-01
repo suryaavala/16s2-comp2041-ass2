@@ -4,7 +4,7 @@
 # as a starting point for COMP2041/9041 assignment 2
 # http://cgi.cse.unsw.edu.au/~cs2041/assignments/matelook/
 
-import cgi, cgitb, glob, os, os.path, datetime
+import cgi, cgitb, glob, os, os.path, datetime, codecs
 
 def main():
     print(page_header())
@@ -58,7 +58,7 @@ def user_page(parameters, users_dir):
     else:
       profile = 'http://d1stfaw6j21ccs.cloudfront.net/assets/main/profile/fallback/default-b382af9ae20b5183b2eb1d6b760714c580c0eca7236cced714946bc0a044b2e6.png'
 
-    
+
     post_text = get_posts(user_to_show,user_data['full_name'])
     #display_string = display_data + '<br><br>Posts:<br>' + post_text
 
@@ -68,7 +68,7 @@ def user_page(parameters, users_dir):
 <div class="matelook_user_details container well">
   <div class="row">
     <div class="col-sm-3">
-      <img src=%s alt="Profile Picture" class="img-thumbnail" style="width:250px;height:250px;">
+      <img src=%s alt="Profile Picture" class="img-thumbnail img-responsive" >
     </div>
     <div class="col-sm-9">
       <div class="table-responsive">
@@ -125,29 +125,27 @@ def get_posts(user_to_show,full_name):
   post_dir = os.path.join(user_to_show,'posts/')
   for i in os.listdir(post_dir):
     post_filename = os.path.join(post_dir,i, "post.txt")
-    with open(post_filename) as f:
-        post = f.read()
-    post_data = {}
-    for p in post.split('\n'):
-      try:
-        field, value = p.split('=')
-      except Exception:
-        continue
-      post_data[field] = value
-    tup = []
-    t = ''
-    for j in sorted(post_data):
-      if j == 'time':
-        t = post_data[j]
-      elif j=='message':
-        tup.append(post_data[j])
-    posts[t] = tup
+    time = ''
+    message = ''
+    with open(post_filename,'rb') as f:
+      for line in f:
+        l = line.decode('utf-8')
+        l = ''.join([i if ord(i) < 128 else ' ' for i in l])
+        #l = l.replace(u"\u2018", "'").replace(u"\u2019", "'").replace(u"\u2026","'")
+        key, value = l.split('=')
+        if key == 'message':
+          message = value
+        if key == 'time':
+          time = str(value).strip('\\n')
+          #print (time)
+    f.close()
+    posts[time] = message
   post_string = ''
   for k in sorted(posts,reverse=True):
-    time = datetime.datetime.strptime(k[:-5],'%Y-%m-%dT%H:%M:%S')
+    time = datetime.datetime.strptime(k[:-6],'%Y-%m-%dT%H:%M:%S')
     time_stamp = time.strftime('<b>%d-%m-%Y</b> (%H:%M)')
     #time_stamp = time.strftime('{%s} {%s}, {%s} at {%s}:{%s}'.format(%b,%d,%Y,%H,%M))
-    message = posts[k][0]
+    message = str(posts[k])
     message = message.replace('\\n','')
     post_string += '<p><b>' + full_name + '</b> posted on '+time_stamp+ ' :<br>' + message
 
