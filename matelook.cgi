@@ -4,7 +4,7 @@
 # as a starting point for COMP2041/9041 assignment 2
 # http://cgi.cse.unsw.edu.au/~cs2041/assignments/matelook/
 
-import cgi, cgitb, glob, os
+import cgi, cgitb, glob, os, os.path
 
 def main():
     print(page_header())
@@ -26,16 +26,28 @@ def user_page(parameters, users_dir):
     user_filename = os.path.join(user_to_show, "user.txt")
     with open(user_filename) as f:
         user = f.read()
+    user.sort()
+    profile_name = os.path.join(user_to_show, "profile.jpg")
+    if os.path.isfile(profile_name):
+        profile = profile_name
+    else:
+      profile = 'http://d1stfaw6j21ccs.cloudfront.net/assets/main/profile/fallback/default-b382af9ae20b5183b2eb1d6b760714c580c0eca7236cced714946bc0a044b2e6.png'
+
     return """
 <div class="matelook_user_details">
 %s
 </div>
 <p>
+<img src=%s alt="Profile Picture">
 <form method="POST" action="">
     <input type="hidden" name="n" value="%s">
     <input type="submit" value="Next user" class="matelook_button">
 </form>
-""" % (user, n + 1) 
+<form method="POST" action="">
+    <input type="hidden" name="n" value="%s">
+    <input type="submit" value="Previous user" class="matelook_button">
+</form>
+""" % (user,profile, n + 1, n-1)
 
 
 #
