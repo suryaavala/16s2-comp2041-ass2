@@ -26,7 +26,23 @@ def user_page(parameters, users_dir):
     user_filename = os.path.join(user_to_show, "user.txt")
     with open(user_filename) as f:
         user = f.read()
-
+    user_data = {}
+    for i in user.split('\n'):
+      try:
+        field, value = i.split('=')
+        user_data[field] = value
+      except Exception:
+        continue
+    relavent_keys = ['full_name','zid','program','birthday','home_suburb','mates']
+    display_keys = ['Name:&#09;','zid:&#09;&#09;','Studies:&#09;','Born on:&#09;','Lives in:&#09;', 'Friends:&#09;']
+    display_data = ''
+    for k in range(6):
+      display_data += display_keys[k]
+      try:
+        display_data += user_data[relavent_keys[k]]
+      except Exception:
+        display_data += 'None'
+      display_data += '\n'
     profile_name = os.path.join(user_to_show, "profile.jpg")
     if os.path.isfile(profile_name):
         profile = profile_name
@@ -35,10 +51,10 @@ def user_page(parameters, users_dir):
 
     return """
 <div class="matelook_user_details">
+<img src=%s alt="Profile Picture">
 %s
 </div>
 <p>
-<img src=%s alt="Profile Picture">
 <form method="POST" action="">
     <input type="hidden" name="n" value="%s">
     <input type="submit" value="Next user" class="matelook_button">
@@ -47,7 +63,7 @@ def user_page(parameters, users_dir):
     <input type="hidden" name="n" value="%s">
     <input type="submit" value="Previous user" class="matelook_button">
 </form>
-""" % (user,profile, n + 1, n-1)
+""" % (profile, display_data, n + 1, n-1)
 
 
 #
