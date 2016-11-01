@@ -26,19 +26,12 @@ def user_page(parameters, users_dir):
     user_filename = os.path.join(user_to_show, "user.txt")
     with open(user_filename) as f:
         user = f.read()
-    user.sort()
-    profile_name = os.path.join(user_to_show, "profile.jpg")
-    if os.path.isfile(profile_name):
-        profile = profile_name
-    else:
-      profile = 'http://d1stfaw6j21ccs.cloudfront.net/assets/main/profile/fallback/default-b382af9ae20b5183b2eb1d6b760714c580c0eca7236cced714946bc0a044b2e6.png'
 
     return """
 <div class="matelook_user_details">
 %s
 </div>
 <p>
-<img src=%s alt="Profile Picture">
 <form method="POST" action="">
     <input type="hidden" name="n" value="%s">
     <input type="submit" value="Next user" class="matelook_button">
