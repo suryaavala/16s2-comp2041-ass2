@@ -4,7 +4,7 @@
 # as a starting point for COMP2041/9041 assignment 2
 # http://cgi.cse.unsw.edu.au/~cs2041/assignments/matelook/
 
-import cgi, cgitb, glob, os, os.path
+import cgi, cgitb, glob, os, os.path, datetime
 
 def main():
     print(page_header())
@@ -21,8 +21,10 @@ def main():
 #
 def user_page(parameters, users_dir):
     n = int(parameters.getvalue('n', 0))
+
     users = sorted(glob.glob(os.path.join(users_dir, "*")))
     user_to_show  = users[n % len(users)]
+
     user_filename = os.path.join(user_to_show, "user.txt")
     with open(user_filename) as f:
         user = f.read()
@@ -43,15 +45,17 @@ def user_page(parameters, users_dir):
       except Exception:
         display_data += 'None'
       display_data += '\n'
+
     profile_name = os.path.join(user_to_show, "profile.jpg")
     if os.path.isfile(profile_name):
         profile = profile_name
     else:
       profile = 'http://d1stfaw6j21ccs.cloudfront.net/assets/main/profile/fallback/default-b382af9ae20b5183b2eb1d6b760714c580c0eca7236cced714946bc0a044b2e6.png'
-
+    post_text = get_posts(user_to_show)
+    display_string = display_data + '<br><br>Posts:<br>' + post_text
     return """
 <div class="matelook_user_details">
-<img src=%s alt="Profile Picture">
+<img src=%s alt="Profile Picture" style="width:250px;height:250px;">
 %s
 </div>
 <p>
@@ -63,9 +67,44 @@ def user_page(parameters, users_dir):
     <input type="hidden" name="n" value="%s">
     <input type="submit" value="Previous user" class="matelook_button">
 </form>
-""" % (profile, display_data, n + 1, n-1)
+</p>
+""" % (profile, display_string, n + 1, n-1)
+
+#
+#Function to collect all posts and return a post string in reverse chron order
+#
+def get_posts(user_to_show):
+  posts = {}
+  post_dir = os.path.join(user_to_show,'posts/')
+  for i in os.listdir(post_dir):
+    post_filename = os.path.join(post_dir,i, "post.txt")
+    with open(post_filename) as f:
+        post = f.read()
+    post_data = {}
+    for p in post.split('\n'):
+      try:
+        field, value = p.split('=')
+      except Exception:
+        continue
+      post_data[field] = value
+    tup = []
+    t = ''
+    for j in sorted(post_data):
+      if j == 'time':
+        t = post_data[j]
+      elif j == 'from' or j=='message':
+        tup.append(post_data[j])
+    posts[t] = tup
+  post_string = ''
+  for k in sorted(posts,reverse=True):
+    time = datetime.datetime.strptime(k[:-5],'%Y-%m-%dT%H:%M:%S')
+    time_stamp = time.strftime('%d-%m-%Y at %H:%M')
+    #time_stamp = time.strftime('{%s} {%s}, {%s} at {%s}:{%s}'.format(%b,%d,%Y,%H,%M))
+    post_string += time_stamp
+    post_string += ' :<br>' +str(posts[k][0]) + ' commented: ' + str(posts[k][1]) + '<br><br>'
 
 
+  return post_string
 #
 # HTML placed at the top of every page
 #
