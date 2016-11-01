@@ -1,10 +1,11 @@
-31/10/16  16:31       starting the assignment
-01/11/16  16:37 16:39 added previous button to navigate to Previous user
-01/11/16  16:39 16:59 added profile picture for the user
-01/11/16  16:59 17:50 formatted user_details
-01/11/16  17:50 19:22 generated posts for the user
-01/11/16  19:22 20:14 added bootstrap to the pages
-01/11/16  20:14 21:05 styling page for user
-01/11/16  21:05 22:01 added mate thumbnails and names
-01/11/16  22:01 22:56 fixed unicode character bug
-01/11/16  22:56 23:01 formatted design for displaying friends
+
+31/10/16  16:31       coding  starting the assignment
+01/11/16  16:37 16:39 coding  added previous button to navigate to Previous user
+01/11/16  16:39 16:59 coding  added profile picture for the user
+01/11/16  16:59 17:50 debug   formatted user_details
+01/11/16  17:50 19:22 coding  generated posts for the user
+01/11/16  19:22 20:14 debug   added bootstrap to the pages
+01/11/16  20:14 21:05 debug   styling page for user
+01/11/16  21:05 22:01 coding  added mate thumbnails and names
+01/11/16  22:01 22:56 debug   fixed unicode character bug
+01/11/16  22:56 23:01 debug   formatted design for displaying friends
