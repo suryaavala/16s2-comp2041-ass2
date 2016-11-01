@@ -175,10 +175,10 @@ def get_mates(user_to_show,mate_list):
     mates[mate_name] = mate_profile
     nb_mates = len(mates)
   mate_generic = '<figure class="figure"><img src="{}" class="figure-img img-responsive" alt="Thumbnail for mate"><figcaption class="figure-caption text-md-center">{}</figcaption></figure>'
-  mate_string = '<div class="row">'
+  mate_string = '<table class="table table-sm"><tr>'
   for m in sorted(mates):
-    mate_string += '<div class="col-sm-{}"'.format(nb_mates-1) + mate_generic.format(mates[m],m) + '</div>'
-  mate_string += '</div>'
+    mate_string += '<td>' + mate_generic.format(mates[m],m) + '</td>'
+  mate_string += '</tr></table>'
   return mate_string
 
 #
