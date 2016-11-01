@@ -105,16 +105,16 @@ def user_page(parameters, users_dir):
     <h3> Posts:</h3>
     %s
   </div>
-</div>
-<form method="POST" action="">
+
+<form class = "btn pull-right" method="POST" action="">
     <input type="hidden" name="n" value="%s">
     <input type="submit" value="Next user" class="matelook_button">
 </form>
-<form method="POST" action="">
+<form class = "btn pull-left" method="POST" action="">
     <input type="hidden" name="n" value="%s">
     <input type="submit" value="Previous user" class="matelook_button">
 </form>
-
+</div>
 """ % (profile, user_data['full_name'],user_data['zid'],user_data['program'],user_data['birthday'],user_data['home_suburb'],mate_list,post_text, n + 1, n-1)
 
 #
@@ -192,7 +192,7 @@ def page_header():
 <html lang="en">
 <head>
 <title>matelook</title>
-<link href="http://cgi.cse.unsw.edu.au/~cs2041cgi/16s2/2041.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="matelook_heading container text-center jumbotron">
