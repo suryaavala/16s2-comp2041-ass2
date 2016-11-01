@@ -57,8 +57,13 @@ def user_page(parameters, users_dir):
         profile = profile_name
     else:
       profile = 'http://d1stfaw6j21ccs.cloudfront.net/assets/main/profile/fallback/default-b382af9ae20b5183b2eb1d6b760714c580c0eca7236cced714946bc0a044b2e6.png'
-    post_text = get_posts(user_to_show)
+
+
+    post_text = get_posts(user_to_show,user_data['full_name'])
     #display_string = display_data + '<br><br>Posts:<br>' + post_text
+
+
+    #mate_list = get_mates(user_to_show,user_data['mates'])
     return """
 <div class="matelook_user_details container well">
   <div class="row">
@@ -97,7 +102,7 @@ def user_page(parameters, users_dir):
     </div>
   </div>
   <div class="row well">
-    <h4> Posts:</h4>
+    <h3> Posts:</h3>
     %s
   </div>
 </div>
@@ -115,7 +120,7 @@ def user_page(parameters, users_dir):
 #
 #Function to collect all posts and return a post string in reverse chron order
 #
-def get_posts(user_to_show):
+def get_posts(user_to_show,full_name):
   posts = {}
   post_dir = os.path.join(user_to_show,'posts/')
   for i in os.listdir(post_dir):
@@ -134,22 +139,27 @@ def get_posts(user_to_show):
     for j in sorted(post_data):
       if j == 'time':
         t = post_data[j]
-      elif j == 'from' or j=='message':
+      elif j=='message':
         tup.append(post_data[j])
     posts[t] = tup
   post_string = ''
   for k in sorted(posts,reverse=True):
     time = datetime.datetime.strptime(k[:-5],'%Y-%m-%dT%H:%M:%S')
-    time_stamp = time.strftime('%d-%m-%Y at %H:%M')
+    time_stamp = time.strftime('<b>%d-%m-%Y</b> (%H:%M)')
     #time_stamp = time.strftime('{%s} {%s}, {%s} at {%s}:{%s}'.format(%b,%d,%Y,%H,%M))
-    post_string += time_stamp
-    post_string += ' :<br>' +str(posts[k][0]) + ' commented: ' + str(posts[k][1]) + '<br><br>'
-
+    message = posts[k][0]
+    message = message.replace('\\n','')
+    post_string += '<p><b>' + full_name + '</b> posted on '+time_stamp+ ' :<br>' + message
 
   return post_string
+
+
+
+
 #
 # HTML placed at the top of every page
 #
+
 def page_header():
     return """Content-Type: text/html;charset=utf-8
 
